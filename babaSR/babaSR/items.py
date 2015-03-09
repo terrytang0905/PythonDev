@@ -8,9 +8,15 @@
 from scrapy.item import Item, Field
 
 
-class BabasrItem(Item):
+class BabaSRItem(Item):
     # define the fields for your item here like:
-    name = Field()
     title = Field()
     link = Field()
-    desc = Field()
+    name = Field()
+    picture = Field()
+    content = Field()
+    price = Field()
+    paylink = Field()
+    setting = Field()
+    tag = Field()
+    # desc = Field()

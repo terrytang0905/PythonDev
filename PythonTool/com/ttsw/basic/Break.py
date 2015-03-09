@@ -9,8 +9,8 @@ Created on May 30, 2014
 '''
 
 while True:
-    s=raw_input('Enter something:')
-    if s=='quit':
+    s = raw_input('Enter something:')
+    if s == 'quit':
         break
-    print 'Length of the string is',len(s)
+    print 'Length of the string is', len(s)
 print'Done'
